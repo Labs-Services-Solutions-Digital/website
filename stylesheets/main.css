@@ -1,0 +1,31 @@
+:root {
+    color-scheme: dark;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+    radial-gradient(circle at top left, rgba(56,189,248,0.10), transparent 35%),
+    radial-gradient(circle at top right, rgba(16,185,129,0.12), transparent 30%),
+    #0b1120;
+}
+
+.grid-bg {
+    background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 42px 42px;
+}
+
+.glass {
+    background: rgba(17, 24, 39, 0.72);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.section-anchor {
+    scroll-margin-top: 6rem;
+}
