@@ -55,124 +55,114 @@
       <div class="grid-bg absolute inset-0 opacity-40"></div>
       <div class="relative mx-auto grid min-h-[88vh] max-w-7xl items-center gap-12 px-4 py-20 md:grid-cols-[1.2fr_0.8fr] md:px-8 lg:py-28">
         <div class="space-y-8">
+          <div class="badge badge-outline border-emerald-400/30 bg-emerald-400/10 px-4 py-3 text-xs uppercase tracking-[0.32em] text-emerald-300">
+            LSSD Community
+          </div>
+
           <div class="space-y-6">
             <h1 class="font-display text-5xl font-extrabold leading-none text-white md:text-7xl">
-                Politique de confidentialité
+              Bug de texture
             </h1>
+
+            <p class="max-w-2xl text-lg leading-8 text-slate-300 md:text-xl">
+              Découvrez comment résoudre les bugs de texture et de passage sous la carte.
+            </p>
+          </div>
+          <div class="flex flex-col gap-4 sm:flex-row">
+            <a href="/texture-bug.html#tutorial" class="btn h-14 rounded-full border-none bg-emerald-500 px-8 text-base font-semibold text-slate-950 hover:bg-emerald-400">Démarrer le tutoriel</a>
+            <a href="/help.html" class="btn h-14 rounded-full border border-white/10 bg-white/5 px-8 text-base font-semibold text-white hover:bg-white/10">Revenir au centre d’aide</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-anchor mx-auto max-w-7xl px-4 py-20 md:px-8">
+    <section id="tutorial" class="section-anchor mx-auto max-w-7xl px-4 py-20 md:px-8">
       <div class="grid gap-6">
+
         <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">1. Introduction</h3>
+          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">
+            Avant-propos
+          </h3>
+
           <p class="mt-4 leading-8 text-slate-300">
-            La présente politique de confidentialité a pour objectif d’informer les utilisateurs du traitement de leurs données personnelles dans le cadre de l’utilisation du service LSSD MDT, conformément au Règlement (UE) 2016/679 du 27 avril 2016 (RGPD).
+            Lorsque vous rejoignez un serveur FiveM, vous pouvez rencontrer des problèmes d’affichage comme des textures manquantes, une baisse de FPS, des écrans noirs ou des passages sous la carte.
+            Ces désagréments sont fréquents, surtout si votre configuration PC est modeste.
           </p>
-          <ul class="mt-4 leading-8 text-slate-300">
-            <li>
-              <b>Responsable du traitement :</b> Sébastien Coze
-            </li>
-            <li>
-              <b>Contact :</b> <a href="mailto:contact@lssd-community.fr" class="hover:underline hover:text-emerald-300 transition-colors">contact@lssd-community.fr</a>
-            </li>
-          </ul>
-        </div>
-        <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">2. Données personnelles collectées</h3>
+
           <p class="mt-4 leading-8 text-slate-300">
-            Le service LSSD MDT collecte uniquement les données personnelles suivantes :
-          </p>
-          <ul class="mt-4 list-disc space-y-2 pl-6 leading-8 text-slate-300">
-            <li>
-              le pseudonyme de l’utilisateur ;
-            </li>
-            <li>
-              l’adresse e-mail de l’utilisateur.
-            </li>
-          </ul>
-          <p class="mt-4 leading-8 text-slate-300">
-            Aucune autre donnée personnelle n’est collectée dans le cadre du fonctionnement du service.
+            Dans ce tutoriel, vous découvrirez comment rélger ces soucis et ainsi améliorer votre expérience de jeu.
           </p>
         </div>
+
+
         <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">3. Finalité du traitement</h3>
+          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">
+            Ajuster votre « Extended Texture Budget »
+          </h3>
+
           <p class="mt-4 leading-8 text-slate-300">
-            Les données collectées sont utilisées uniquement afin de :
+            Le « Extended Texture Budget » est une option essentielle des paramètres graphiques de FiveM.
+            Une configuration inadaptée peut provoquer divers problèmes d’affichage.
           </p>
-          <ul class="mt-4 list-disc space-y-2 pl-6 leading-8 text-slate-300">
-            <li>
-              permettre la création et la gestion du compte utilisateur ;
-            </li>
-            <li>
-              assurer le bon fonctionnement du service LSSD MDT ;
-            </li>
-            <li>
-              communiquer avec l’utilisateur lorsque cela est nécessaire au fonctionnement du service.
-            </li>
-          </ul>
+
           <p class="mt-4 leading-8 text-slate-300">
-            Les données ne sont ni vendues, ni louées, ni cédées à des tiers à des fins commerciales.
+            Pour ajuster cette option :
           </p>
+
+          <ol class="mt-4 list-decimal space-y-2 pl-6 leading-8 text-slate-300">
+            <li>
+              Allez dans les paramètres graphiques de votre jeu.
+            </li>
+            <li>
+              Sélectionnez le paramètre « Extended Texture Budget ».
+            </li>
+            <li>
+              Assurez-vous que le curseur reste la zone verte. Si le curseur est dans la zone rouge ou orange, votre PC utilisera trop de mémoire graphique.
+            </li>
+            <li>
+              Déplacez le curseur au maximum vers la droite tout en restant dans la zone verte.
+            </li>
+          </ol>
+
+          <img src="assets/tutorials/texture-bug/etb.png" alt="Capture d'écran : Extended Texture Budget" class="mt-4 mx-auto w-full max-w-3xl rounded-2xl border border-white/10 bg-slate-900 object-cover shadow-lg" />
         </div>
+
+
         <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">4. Durée de conservation</h3>
+          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">
+            Optimiser vos paramètres graphiques
+          </h3>
+
           <p class="mt-4 leading-8 text-slate-300">
-            Les données personnelles sont conservées tant que le compte utilisateur est actif.
+            Certains réglages graphiques peuvent être trop élevés, ce qui peut provoquer des baisses de performance.
           </p>
+
           <p class="mt-4 leading-8 text-slate-300">
-            Lorsqu’un utilisateur supprime son compte ou demande l’effacement de ses données personnelles, celles-ci sont supprimées dans un délai maximal de 30 jours à compter de la suppression du compte ou de la réception de la demande.
+            Pour régler vos paramètres graphiques :
           </p>
+
+          <ol class="mt-4 list-decimal space-y-2 pl-6 leading-8 text-slate-300">
+            <li>
+              Allez dans les paramètres graphiques de votre jeu.
+            </li>
+            <li>
+              Diminuez les paramètres « Détails très élevés » et « Distance d’affichage ».
+            </li>
+            <li>
+              Assurez-vous les autres paramètres ne sont pas trop élevés en fonction de la puissance de votre ordinateur.
+            </li>
+          </ol>
+          <img src="assets/tutorials/texture-bug/graphics.png" alt="Capture d'écran : Extended Texture Budget" class="mt-4 mx-auto w-full max-w-3xl rounded-2xl border border-white/10 bg-slate-900 object-cover shadow-lg" />
         </div>
+
+
         <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">5. Droits des utilisateurs</h3>
+          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">
+            Ne pas vider le cache
+          </h3>
+
           <p class="mt-4 leading-8 text-slate-300">
-            Conformément au RGPD, chaque utilisateur dispose des droits suivants :
-          </p>
-          <ul class="mt-4 list-disc space-y-2 pl-6 leading-8 text-slate-300">
-            <li>
-              droit d’accès à ses données personnelles ;
-            </li>
-            <li>
-              droit de rectification de ses données ;
-            </li>
-            <li>
-              droit à l’effacement (« droit à l’oubli ») ;
-            </li>
-            <li>
-              droit à la limitation du traitement, dans les cas prévus par la réglementation ;
-            </li>
-            <li>
-              droit d’introduire une réclamation auprès de l’autorité de contrôle compétente.
-            </li>
-          </ul>
-          <p class="mt-4 leading-8 text-slate-300">
-            Les utilisateurs peuvent exercer leurs droits :
-          </p>
-          <ul class="mt-4 list-disc space-y-2 pl-6 leading-8 text-slate-300">
-            <li>
-              directement depuis le service LSSD MDT, lorsque les fonctionnalités correspondantes sont disponibles ;
-            </li>
-            <li>
-              ou en adressant une demande par e-mail à <a href="mailto:contact@lssd-community.fr" class="hover:underline hover:text-emerald-300 transition-colors">contact@lssd-community.fr</a>.
-            </li>
-          </ul>
-        </div>
-        <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">6. Sécurité des données</h3>
-          <p class="mt-4 leading-8 text-slate-300">
-            Le responsable du traitement met en œuvre des mesures techniques et organisationnelles raisonnables afin de protéger les données personnelles contre tout accès non autorisé, toute perte, toute divulgation ou toute modification.
-          </p>
-        </div>
-        <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">7. Modification de la présente politique</h3>
-          <p class="mt-4 leading-8 text-slate-300">
-            La présente politique de confidentialité peut être modifiée à tout moment afin de tenir compte d’une évolution du service ou de la réglementation.
-          </p>
-          <p class="mt-4 leading-8 text-slate-300">
-            La version en vigueur est celle publiée sur le site au moment de la consultation.
+            Vider le cache peut sembler utile, mais cela force le retéléchargement de tous les MLOs et ressources du serveur, ce qui peut fortement solliciter votre PC et aggraver les problèmes d’affichage.
           </p>
         </div>
       </div>
