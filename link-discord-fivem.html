@@ -61,15 +61,15 @@
 
           <div class="space-y-6">
             <h1 class="font-display text-5xl font-extrabold leading-none text-white md:text-7xl">
-              Bug de texture
+              Liaison entre Discord et FiveM
             </h1>
 
             <p class="max-w-2xl text-lg leading-8 text-slate-300 md:text-xl">
-              Découvrez comment résoudre les bugs de texture et de passage sous la carte.
+              Découvrez comment lier votre compte Discord à FiveM.
             </p>
           </div>
           <div class="flex flex-col gap-4 sm:flex-row">
-            <a href="/texture-bug.html#tutorial" class="btn h-14 rounded-full border-none bg-emerald-500 px-8 text-base font-semibold text-slate-950 hover:bg-emerald-400">Démarrer le tutoriel</a>
+            <a href="/link-discord-fivem.html#tutorial" class="btn h-14 rounded-full border-none bg-emerald-500 px-8 text-base font-semibold text-slate-950 hover:bg-emerald-400">Démarrer le tutoriel</a>
             <a href="/help.html" class="btn h-14 rounded-full border border-white/10 bg-white/5 px-8 text-base font-semibold text-white hover:bg-white/10">Revenir au centre d’aide</a>
           </div>
         </div>
@@ -85,84 +85,70 @@
           </h3>
 
           <p class="mt-4 leading-8 text-slate-300">
-            Lorsque vous rejoignez un serveur FiveM, vous pouvez rencontrer des problèmes d’affichage comme des textures manquantes, une baisse de FPS, des écrans noirs ou des passages sous la carte.
-            Ces désagréments sont fréquents, surtout si votre configuration PC est modeste.
-          </p>
-
-          <p class="mt-4 leading-8 text-slate-300">
-            Dans ce tutoriel, vous découvrirez comment rélger ces soucis et ainsi améliorer votre expérience de jeu.
+            Il arrive que l’accès à un serveur FiveM vous soit refusé.
+            Cela peut être dû au fait que votre compte Discord n’est pas lié à FiveM, ou que vous ne faites pas partie du serveur Discord du serveur FiveM, car certains serveurs l’exigent.
+            Suivez les étapes ci-après pour régler le soucis.
           </p>
         </div>
 
 
         <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
           <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">
-            Ajuster votre « Extended Texture Budget »
+            1. Autoriser l’application FiveM
           </h3>
 
           <p class="mt-4 leading-8 text-slate-300">
-            Le « Extended Texture Budget » est une option essentielle des paramètres graphiques de FiveM.
-            Une configuration inadaptée peut provoquer divers problèmes d’affichage.
+            Il est essentiel d’ajouter FiveM dans vos applications autorisées de Discord
           </p>
 
           <p class="mt-4 leading-8 text-slate-300">
-            Pour ajuster cette option :
+            Pour ajouter FiveM dans vos applications autorisées :
           </p>
 
           <ol class="mt-4 list-decimal space-y-2 pl-6 leading-8 text-slate-300">
             <li>
-              Allez dans les paramètres graphiques de votre jeu.
+              Fermez totalement FiveM et ses processus en arrière-plan.
             </li>
             <li>
-              Sélectionnez le paramètre « Extended Texture Budget ».
+              Ouvrez l’application Discord et allez dans « Paramètres utilisateur ».
             </li>
             <li>
-              Assurez-vous que le curseur reste la zone verte. Si le curseur est dans la zone rouge ou orange, votre PC utilisera trop de mémoire graphique.
+              Ouvrez l’onglet « Applications autorisées ».
             </li>
             <li>
-              Déplacez le curseur au maximum vers la droite tout en restant dans la zone verte.
+              Si vous trouvez FiveM, cliquez sur « Retirer l’autorisation ».
             </li>
           </ol>
 
-          <img src="assets/tutorials/texture-bug/etb.png" alt="Capture d’écran : Extended Texture Budget" class="mt-4 mx-auto w-full max-w-3xl rounded-2xl border border-white/10 bg-slate-900 object-cover shadow-lg" />
+          <img src="assets/tutorials/link-discord-fivem/remove-fivem.png" alt="Capture d’écran" class="mt-4 mx-auto w-full max-w-3xl rounded-2xl border border-white/10 bg-slate-900 object-cover shadow-lg" />
         </div>
 
 
         <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
           <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">
-            Optimiser vos paramètres graphiques
+            2. Relancer les applications
           </h3>
 
           <p class="mt-4 leading-8 text-slate-300">
-            Certains réglages graphiques peuvent être trop élevés, ce qui peut provoquer des baisses de performance.
+            Discord ne doit pas s’exécuter en mode « Administrateur ».
           </p>
 
           <p class="mt-4 leading-8 text-slate-300">
-            Pour régler vos paramètres graphiques :
+            Assurez-vous de lancer les applications dans cette ordre :
           </p>
 
           <ol class="mt-4 list-decimal space-y-2 pl-6 leading-8 text-slate-300">
             <li>
-              Allez dans les paramètres graphiques de votre jeu.
+              Discord.
             </li>
             <li>
-              Diminuez les paramètres « Détails très élevés » et « Distance d’affichage ».
-            </li>
-            <li>
-              Assurez-vous les autres paramètres ne sont pas trop élevés en fonction de la puissance de votre ordinateur.
+              FiveM.
             </li>
           </ol>
-          <img src="assets/tutorials/texture-bug/graphics.png" alt="Capture d’écran" class="mt-4 mx-auto w-full max-w-3xl rounded-2xl border border-white/10 bg-slate-900 object-cover shadow-lg" />
-        </div>
-
-
-        <div class="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-soft">
-          <h3 class="text-sm uppercase tracking-[0.22em] text-slate-400">
-            Ne pas vider le cache
-          </h3>
 
           <p class="mt-4 leading-8 text-slate-300">
-            Vider le cache peut sembler utile, mais cela force le retéléchargement de tous les MLOs et ressources du serveur, ce qui peut fortement solliciter votre PC et aggraver les problèmes d’affichage.
+            Suite à cela, il est possible d’avoir une pop-up sur l’application Discord vous demandant d’autoriser la connexion entre FiveM et Discord.
+            Si c’est le cas, autorisez l’accès.
           </p>
         </div>
       </div>
